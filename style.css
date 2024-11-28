@@ -1,0 +1,60 @@
+body{
+    font-family: Arial, sans-serif;
+    margin: 30%;
+    background-image: url(https://w7.pngwing.com/pngs/741/807/png-transparent-astronaut-floating-space-thumbnail.png);
+    justify-content: center;
+    align-items: center;
+    height: 100 vh;
+    padding: 10%;
+}
+
+
+
+.login-container{
+    background-color: #3b889b;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba( 0, 0, 0, 0.1);
+    width: 300px;
+    text-align: center;
+    
+}
+
+h2{
+    margin-bottom: 20px;
+}
+
+label{
+    display: block;
+    margin-bottom: 8px;
+}
+
+input[type=text], input[type=password], input[type=cellular], input[type= email]{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+input[type="text"], input[type="password"], select { 
+    width: 100%; 
+    padding: 10px; 
+    margin-bottom: 10px; 
+    border: 1px solid #ccc; 
+    border-radius: 4px;
+}
+
+input[type="submit"] { 
+    width: 100%; 
+    padding: 10px; 
+    background-color: #4CAF50; 
+    color: white; 
+    border: none;
+    border-radius: 4px; 
+    cursor: pointer; }
+
+
+input[type="submit"]:hover{
+    background-color: #45a049;
+}
